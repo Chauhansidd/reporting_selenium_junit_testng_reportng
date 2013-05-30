@@ -12,3 +12,7 @@ You can convert this project to open it in IDE of your choice.
 For IntelliJ IDEA use "mvn idea:idea".
 
 For Eclipse use "mvn eclipse:eclipse".
+
+
+For configuring maven on windows :
+http://www.mkyong.com/maven/how-to-install-maven-in-windows/
