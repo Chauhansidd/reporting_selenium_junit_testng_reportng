@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.confiz'
+version = '1.0-SNAPSHOT'
+
+description = """archetype_selenium_testng_reportng"""
+
+sourceCompatibility = 1.5
+targetCompatibility = 1.5
+
+
+
+repositories {
+        
+     mavenRepo url: "http://repo.maven.apache.org/maven2"
+}
+dependencies {
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:'2.33.0'
+    compile group: 'org.testng', name: 'testng', version:'6.8.5'
+    compile group: 'com.google.inject', name: 'guice', version:'1.0'
+	runtime fileTree(dir: 'lib', include: '*.jar')
+}
