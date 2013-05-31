@@ -1,4 +1,4 @@
-archetype_selenium_testng_reportng
+Reporting with Selenum,JUnit, TestNG and ReportNG
 ==================================
 
 This project basically provides an archetype/skeleton for working with Selenium,JUnit TestNG and ReportNG. You can use it for new projects or previous projects. 
